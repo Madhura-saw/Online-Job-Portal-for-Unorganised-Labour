@@ -43,6 +43,7 @@ const MultifieldInput = (props) => {
 
   return (
     <>
+    Education(if applicable)
       {education.map((obj, key) => (
         <Grid
           item
@@ -411,7 +412,7 @@ const Login = (props) => {
             <Grid item>
               <FileUploadInput
                 className={classes.inputBox}
-                label="Resume (.pdf)"
+                label="Resume(.pdf, if applicable)"
                 icon={<DescriptionIcon />}
                 // value={files.resume}
                 // onChange={(event) =>

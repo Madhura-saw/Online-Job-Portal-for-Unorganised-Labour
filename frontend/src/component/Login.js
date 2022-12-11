@@ -115,7 +115,7 @@ const Login = (props) => {
         </Grid>
         <Grid item>
           <EmailInput
-            label="Email"
+            label="Email/Number"
             value={loginDetails.email}
             onChange={(event) => handleInput("email", event.target.value)}
             inputErrorHandler={inputErrorHandler}
