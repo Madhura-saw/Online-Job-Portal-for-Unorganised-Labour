@@ -1,4 +1,4 @@
-export const server = "http://localhost:4444";
+export const server = "https://online-job-portal-for-unorganised-labour-ouu2.onrender.com";
 
 const apiList = {
   login: `${server}/auth/login`,
