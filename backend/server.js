@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // MongoDB
 mongoose
-  .connect("mongodb+srv://madhuraOJP:maddy%40OJP@cluster0.icp8npt.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://madhuraOJP:<password>@cluster0.icp8npt.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
